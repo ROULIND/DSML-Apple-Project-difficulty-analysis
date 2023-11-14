@@ -34,3 +34,4 @@ predictions = model.predict(test_vectors)
 # Preparing the submission file
 submission = pd.DataFrame({'id': test_data['id'], 'difficulty': predictions})
 submission.to_csv('/mnt/data/my_submission.csv', index=False)
+
