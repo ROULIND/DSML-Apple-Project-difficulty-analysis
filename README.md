@@ -8,7 +8,6 @@ This project is an academic exploration carried out as part of a Data Science an
 
 The project simulates the challenge LingoRank could face: developing a model capable of predicting the difficulty of French texts for English-speaking learners. This scenario enabled us to apply theoretical concepts and technical skills in a practical context, while exploring the nuances and challenges of machine learning in the language education sector.
 
-
 ## 2. Objective
 
 The objectives of this project are twofold:
