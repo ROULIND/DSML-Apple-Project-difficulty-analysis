@@ -1,14 +1,17 @@
 # DSML-Apple-Project-difficulty-analysis
 
-![](https://github.com/ROULIND/DSML-Apple-Project-difficulty-analysis/blob/main/images/Image-Groupe-Apple-Presentation.png)
 
-## 1. Introduction
+
+![Image-Groupe-Apple-Presentation.png](https://github.com/ROULIND/DSML-Apple-Project-difficulty-analysis/blob/main/images/Image-Groupe-Apple-Presentation.png)
+
+## 1. Introduction
 
 This project is an academic exploration carried out as part of a Data Science and Machine Learning course. Through the fictional case study of "LingoRank", a startup imagined for the purposes of this project, we immersed ourselves in the real world of data analysis and machine learning applied to linguistics. LingoRank, although a fictional entity, represents an innovative company aiming to transform language learning through technology.
 
 The project simulates the challenge LingoRank could face: developing a model capable of predicting the difficulty of French texts for English-speaking learners. This scenario enabled us to apply theoretical concepts and technical skills in a practical context, while exploring the nuances and challenges of machine learning in the language education sector.
 
-## 2. Objective
+
+## 2. Objective
 
 The objectives of this project are twofold:
 
@@ -17,10 +20,9 @@ The objectives of this project are twofold:
 
 Through this project, we aim to demonstrate our ability to translate theoretical skills into practical solutions, while exploring the possibilities and limitations of artificial intelligence in an educational context. LingoRank, albeit fictional, serves as a backdrop for this educational venture, allowing us to apply our skills in a scenario that mimics real-world business and technology challenges.
 
-## 3. Methodology
+## 3. Methodology
 
 
+## 4. Conclusion
 
-## 4. Conclusion
-
-## 5. Team
+## 5. Team
