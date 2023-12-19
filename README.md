@@ -22,6 +22,9 @@ Through this project, we aim to demonstrate our ability to translate theoretical
 
 ## 3. Methodology
 
+### 3.1 Data analysis
+
+### 3.2 Basic models
 
 | Models    | Logistic Regression | Decision Tree | KNN Neighbours | Random Forest |
 |:---------:|:---------:|:---------:|:---------:|:---------:|
@@ -30,7 +33,15 @@ Through this project, we aim to demonstrate our ability to translate theoretical
 | F1-score | 0.4446 | x.xxxx | x.xxxx | x.xxxx 
 | Accuracy | 0.4541 | x.xxxx | x.xxxx | x.xxxx
 
+### 3.3 Advanced models
+
+### 3.4 Data augmentation
 
 ## 4. Conclusion
 
 ## 5. Team
+
+![](https://github.com/ROULIND/DSML-Apple-Project-difficulty-analysis/blob/main/images/Dimitri-Roulin-PP.jpg)
+
+Dimitri Roulin
+Étudiant - Master en Systèmes d'information et Innovation digitale
