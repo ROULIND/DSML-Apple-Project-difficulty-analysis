@@ -2,3 +2,4 @@ As our pretrained CamenBERT model is too big to be uploaded on GitHub, here is a
 
 https://drive.google.com/drive/folders/1-QacA8tIFrTmcG4pOJbjqouNL8VjVpX7?usp=sharing
 
+Once you downloaded it, place the entire model's folder in this folder.
