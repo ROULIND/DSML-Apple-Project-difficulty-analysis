@@ -66,12 +66,13 @@ With our data meticulously prepared and primed for use, we turned our attention 
 Our initial trials revealed Logistic Regression as the standout model, providing the best balance of accuracy and complexity for our dataset. Its effectiveness in handling linear relationships made it particularly adept at distinguishing between the varying levels of text difficulty, which was the primary challenge of our Kaggle competition.
 
 
-| Models    | Logistic Regression | Multinomial NB | NeuralNetwork | GDBT | Random Forest |
-|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-| Precision | 0.4470  |  0.45014 | 0.4354 | x.xxxx | x.xxxx |
-| Recall    | 0.4541  |  0.4125  | 0.4062 | x.xxxx | x.xxxx |
-| F1-score | 0.4446 | 0.40452 | 0.40527 | x.xxxx | x.xxxx |
-| Accuracy | 0.4541 | 0.4125 | 0.4062 | x.xxxx | x.xxxx |
+| Models    | Logistic Regression | Multinomial NB | NeuralNetwork | CamenBERT |
+|:---------:|:---------:|:---------:|:---------:|:---------:|
+| Precision | 0.4470  |  0.45014 | 0.4354 | **0.9520** | 
+| Recall    | 0.4541  |  0.4125  | 0.4062 | **0.9522** | 
+| F1-score | 0.4446 | 0.40452 | 0.40527 | **0.9520** |
+| Accuracy | 0.4541 | 0.4125 | 0.4062 | **0.9518** | 
+
 
 The exploration into Neural Networks entailed an extensive search for optimal hyperparameters. We conducted numerous experiments to fine-tune the architecture, learning rate, batch size, and other key parameters. Despite our efforts, the results from the Neural Networks were not as promising as we had hoped. Not only were they outperformed by the simpler Logistic Regression model, but they also required significantly more computational resources. The increasing demand for processing power and time rendered the Neural Network approach less feasible for our project's scope.
 
@@ -90,9 +91,12 @@ Integrating CamemBERT into our workflow marked a turning point in our project. W
 
 
 
-### 3.4 Data Augmentation
+### 3.5 Our Best Model
 
-### 3.5 Potential Improvement
+### 3.6 Data Augmentation
+
+### 3.7 Potential Improvement
+
 
 
 ## 4. Conclusion
