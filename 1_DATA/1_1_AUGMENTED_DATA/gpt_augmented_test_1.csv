@@ -1,0 +1,158 @@
+sentence,difficulty
+"Le chat dort sous la table.",A1
+"Je mange une pomme.",A1
+"Elle va à l'école tous les jours.",A2
+"Nous aimons écouter de la musique.",A2
+"Quand il pleut, j'aime lire un livre chez moi.",B1
+"Mon frère apprend à cuisiner des plats italiens.",B1
+"Bien que le travail soit difficile, il reste motivé.",B2
+"Le gouvernement envisage de nouvelles mesures pour réduire la pollution.",B2
+"La littérature contemporaine reflète souvent les complexités de la société.",C1
+"Cette étude approfondie sur les changements climatiques nécessite une analyse multidisciplinaire.",C1
+"Le soleil brille aujourd'hui.",A1
+"Elle porte des chaussures bleues.",A1
+"Le chat mange sa nourriture.",A1
+"J'aime nager en été.",A1
+"Il a une grande maison.",A1
+"Nous allons visiter nos grands-parents ce week-end.",A2
+"Elle a appris à jouer du piano.",A2
+"Ils ont trois enfants et un chien.",A2
+"Ce restaurant sert des plats délicieux.",A2
+"Je vais à l'école en vélo.",A2
+"La lecture de romans historiques m'intéresse beaucoup.",B1
+"Nous discutons souvent de sujets d'actualité en classe.",B1
+"Il travaille pour une entreprise internationale.",B1
+"Elle essaie de réduire son empreinte carbone.",B1
+"Ce musée expose des œuvres d'art du 19ème siècle.",B1
+"Le débat sur l'énergie renouvelable est de plus en plus pertinent.",B2
+"La diversité culturelle enrichit notre société.",B2
+"Les progrès technologiques ont révolutionné la communication.",B2
+"Ils analysent l'impact économique des politiques environnementales.",B2
+"Cette pièce de théâtre explore des thèmes complexes de l'identité.",B2
+"Les philosophes contemporains débattent sur la notion de liberté.",C1
+"L'intelligence artificielle soulève des questions éthiques importantes.",C1
+"La globalisation a des effets profonds sur les économies locales.",C1
+"L'étude des écosystèmes marins révèle des interactions complexes.",C1
+"Son analyse critique de la littérature médiévale a été publiée récemment.",C1
+"Le ciel est bleu aujourd'hui.",A1
+"J'ai deux sœurs.",A1
+"Le chien aboie fort.",A1
+"Elle a un joli sourire.",A1
+"Ils vont souvent à la plage en été.",A2
+"Nous avons mangé une pizza délicieuse.",A2
+"Le livre était mieux que le film.",A2
+"Elle parle un peu l'espagnol.",A2
+"Les étudiants discutent de leur projet de science.",B1
+"Je vais au marché pour acheter des légumes frais.",B1
+"Ce musicien joue plusieurs instruments.",B1
+"Nous avons exploré la ville toute la journée.",B1
+"Le débat politique était intense mais constructif.",B2
+"Il a écrit un essai sur l'impact des médias sociaux.",B2
+"L'architecture de cette ville reflète son histoire riche.",B2
+"Elle étudie les effets du changement climatique sur l'agriculture.",B2
+"Les philosophes discutent de la nature de la conscience humaine.",C1
+"Cette recherche contribue significativement à notre compréhension de l'univers.",C1
+"Les nuances de la langue française peuvent être subtiles.",C1
+"Il analyse les tendances économiques pour prévoir les marchés futurs.",C1
+"Les enfants jouent dans le parc.",A1
+"J'ai un chat noir et blanc.",A1
+"Elle aime beaucoup le chocolat.",A1
+"Nous regardons un film ce soir.",A1
+"Le livre est à côté de la lampe.",A1
+"Il fait froid en hiver.",A1
+"Le jardin est plein de fleurs.",A1
+"Elle porte un chapeau élégant.",A1
+"Il prend son café sans sucre.",A1
+"Nous avons un nouveau professeur.",A1
+"Elle voyage souvent en Italie.",A2
+"Je prépare un gâteau pour la fête.",A2
+"Les oiseaux chantent le matin.",A2
+"Nous avons vu un film intéressant.",A2
+"Il écrit une lettre à son ami.",A2
+"Elle parle rapidement quand elle est excitée.",A2
+"Le musée est fermé le lundi.",A2
+"Nous étudions l'histoire de France.",A2
+"Le chat a peur du chien.",A2
+"Elle achète des fruits au marché.",A2
+"Le professeur explique la leçon clairement.",B1
+"Ils ont débattu du sujet pendant des heures.",B1
+"Nous avons organisé une réunion pour discuter du projet.",B1
+"Elle comprend l'importance de l'éducation.",B1
+"La littérature classique m'intéresse beaucoup.",B1
+"Les scientifiques étudient les causes du phénomène.",B1
+"Ce roman aborde des questions de morale.",B1
+"La conférence traite des dernières découvertes scientifiques.",B1
+"Il a une perspective unique sur l'art contemporain.",B1
+"Le cours couvre différents aspects de la psychologie.",B1
+"Je vois un oiseau dans le ciel.",A1
+"Nous aimons jouer au tennis.",A1
+"Le gâteau est sur la table.",A1
+"Il a un vélo rouge.",A1
+"Elle porte des lunettes.",A1
+"Le chat dort sur le canapé.",A1
+"Le livre est très intéressant.",A1
+"Nous avons un chat et un chien.",A1
+"Ils vont à l'école ensemble.",A1
+"Elle a une robe bleue.",A1
+"Je mange des fruits pour le petit-déjeuner.",A2
+"Il travaille comme ingénieur.",A2
+"Nous visitons nos grands-parents le dimanche.",A2
+"Elle parle anglais et français.",A2
+"Le train arrive à dix heures.",A2
+"Ils aiment regarder des films le soir.",A2
+"Nous jouons au football le week-end.",A2
+"Elle étudie pour devenir médecin.",A2
+"Je prends le bus pour aller au travail.",A2
+"Ils ont un appartement en ville.",A2
+"Nous avons discuté de divers sujets.",B1
+"Elle a réussi son examen avec brio.",B1
+"Ils se préparent pour le marathon.",B1
+"Le professeur a donné des exemples pratiques.",B1
+"Nous avons analysé le poème en classe.",B1
+"Elle a exprimé ses opinions clairement.",B1
+"Il a une approche créative pour résoudre les problèmes.",B1
+"Nous avons exploré différentes cultures.",B1
+"Le documentaire présente des faits intéressants.",B1
+"Elle a une vision optimiste de l'avenir.",B1
+"Ils débattent des effets des médias sur la société.",B2
+"La pièce de théâtre présente une satire politique.",B2
+"Il a étudié l'impact économique des nouvelles lois.",B2
+"Nous avons discuté des implications éthiques de la recherche.",B2
+"Le séminaire a abordé des théories complexes.",B2
+"Elle a analysé les tendances littéraires du 20ème siècle.",B2
+"Ils ont une compréhension approfondie de la philosophie.",B2
+"La conférence a exploré des sujets avancés en science.",B2
+"Il a une perspective globale sur les enjeux environnementaux.",B2
+"Nous avons débattu des stratégies de développement durable.",B2
+"Le cours examine des concepts avancés en psychologie.",B2
+"Elle a écrit une thèse sur la dynamique sociale moderne.",B2
+"La dialectique entre modernité et tradition façonne la littérature contemporaine.",C1
+"Les théories économiques doivent considérer les variables environnementales et sociales.",C1
+"Ce roman explore la psychologie des personnages dans un contexte historique complexe.",C1
+"La globalisation influence profondément les dynamiques culturelles et linguistiques.",C1
+"Les philosophes débattent sur l'existence de la vérité absolue dans un monde relatif.",C1
+"Les avancées technologiques posent de nouvelles questions éthiques et morales.",C1
+"L'étude interdisciplinaire offre une compréhension plus holistique des phénomènes sociaux.",C1
+"Le changement climatique nécessite une réponse globale coordonnée et multidimensionnelle.",C1
+"L'art abstrait représente une rupture avec les conventions traditionnelles de la beauté.",C1
+"L'analyse critique de la politique étrangère requiert une compréhension des relations historiques.",C1
+"Les mouvements sociaux contemporains s'articulent autour de la revendication identitaire.",C1
+"La philosophie de l'existence interroge le sens de la vie dans un univers indifférent.",C1
+"L'interprétation des données statistiques exige une compréhension approfondie des méthodes.",C1
+"Le réalisme magique dans la littérature fusionne le quotidien avec des éléments surnaturels.",C1
+"Les politiques publiques doivent être informées par des recherches empiriques rigoureuses.",C1
+"L'architecture gothique se caractérise par ses voûtes élancées et ses vitraux colorés.",C2
+"La maîtrise de la rhétorique est essentielle pour articuler des arguments convaincants.",C2
+"Les nuances de la poésie symboliste résident dans son usage subtil du langage et des images.",C2
+"L'éthique de la responsabilité est cruciale dans la prise de décisions politiques.",C2
+"La compréhension des mécanismes neurologiques ouvre des perspectives sur la conscience humaine.",C2
+"La critique littéraire postmoderne remet en question la notion d'auteur et de texte.",C2
+"L'analyse géopolitique contemporaine révèle les complexités des conflits internationaux.",C2
+"Les avancées en biotechnologie soulèvent des dilemmes éthiques dans la manipulation génétique.",C2
+"La philosophie existentialiste explore la quête de sens dans un monde absurde.",C2
+"Le débat sur l'intelligence artificielle concerne son impact sur l'avenir du travail.",C2
+"La linguistique cognitive explore le lien entre la langue, la pensée et la culture.",C2
+"Les études postcoloniales examinent les effets persistants du colonialisme sur les sociétés.",C2
+"L'art de la Renaissance se distingue par sa représentation de la perspective et du réalisme.",C2
+"Les stratégies de développement durable cherchent à équilibrer croissance et écologie.",C2
+"L'anthropologie culturelle étudie les diverses manifestations des cultures à travers le monde.",C2

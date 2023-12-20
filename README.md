@@ -137,7 +137,7 @@ To enhance our model's accuracy, we delved into data augmentation, employing sev
 
 We then experimented with generating sentences and their corresponding difficulty levels using ChatGPT, both directly within the prompt and through a Python script. This effort successfully increased our training dataset from 4,800 to over **12,000 entries**, adding more than 7,200 new data points. (**full_augmented_training_data.csv**)
 
-Despite this significant increase in training data, our model's precision on the Kaggle submissions unexpectedly decreased. This **decline in performance** could be attributed to overfitting, particularly as the newly generated data might have varied substantially from the original dataset and the texts used in Kaggle's evaluation. This outcome highlighted the delicate balance required in data augmentation - ensuring new data is beneficial and closely aligned with the task's requirements.
+Despite this significant increase in training data, our model's precision on the Kaggle submissions unexpectedly decreased. This **decline in performance** could be attributed to overfitting, particularly as the newly generated data might have varied substantially from the original dataset and the texts used in Kaggle's evaluation. This outcome highlighted the delicate balance required in data augmentation - ensuring new data is beneficial and closely aligned with the task's requirements. (**DSML-Model-CamenBERT-DataAugmentation.ipynb**)
 
 
 ## 5. Conclusion
@@ -159,8 +159,7 @@ This result is particularly noteworthy considering the complexity of the task an
 
 ## 6. Team
 
-![](https://github.com/ROULIND/DSML-Apple-Project-difficulty-analysis/blob/main/images/Dimitri-Roulin-PP.jpg)
+Our project was led by Jonatan Gretz and Dimitri Roulin, Master's students specializing in Information Systems and Digital Innovation.
 
-Dimitri Roulin
-Étudiant - Master en Systèmes d'information et Innovation digitale
+
 
