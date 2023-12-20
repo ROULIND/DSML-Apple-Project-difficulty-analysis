@@ -115,7 +115,10 @@ The implementation of CamemBERT proved to be a significant leap forward in our p
 | F1-score  | **0.9520** |
 | Accuracy | **0.9518** | 
 
-![](https://github.com/ROULIND/DSML-Apple-Project-difficulty-analysis/blob/main/images/CamenBERT-ConfusionMatrix.jpg)
+
+
+
+![](https://github.com/ROULIND/DSML-Apple-Project-difficulty-analysis/blob/main/images/CamenBERT-ConfusionMatrix.png)
 
 
 ### 4.2 Data Augmentation
