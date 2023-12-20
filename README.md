@@ -116,6 +116,13 @@ The implementation of CamemBERT proved to be a significant leap forward in our p
 | Accuracy | 0.9518 | 0.606 |
 
 
+A critical aspect of evaluating our CamemBERT model's performance was analyzing its confusion matrix. This analysis revealed key insights into the model's prediction patterns and areas where it most frequently erred. Notably, the most common misclassifications involved:
+
+- **Predicting A2 instead of B1**: A significant number of texts that were actually at the B1 difficulty level were predicted as A2 by our model. This suggests a challenge in distinguishing between the nuances of these intermediate language proficiency levels.
+- **Predicting B1 instead of B2**: Similarly, many texts at the B2 level were incorrectly classified as B1. This indicates a similar issue in differentiating between these closely related difficulty levels.
+
+These patterns in the confusion matrix underscored specific challenges in our model's ability to discern subtle differences in text complexity, particularly between adjacent proficiency levels. Understanding these misclassifications provides valuable direction for future improvements, possibly through more targeted data augmentation or fine-tuning of the model to better capture these nuances.
+
 ![](https://github.com/ROULIND/DSML-Apple-Project-difficulty-analysis/blob/main/images/CamenBERT-ConfusionMatrix.png)
 
 ### 4.2 Overfitting Challenge
