@@ -108,26 +108,47 @@ In our journey to find the most effective model for text difficulty classificati
 
 The implementation of CamemBERT proved to be a significant leap forward in our project. It demonstrated remarkable accuracy in classifying the difficulty of French texts, outperforming our initial models. 
 
-| Metrics | CamenBERT |
-|:---------:|:---------:|
-| Precision  | **0.9520** | 
-| Recall     | **0.9522** | 
-| F1-score  | **0.9520** |
-| Accuracy | **0.9518** | 
-
-
+| Metrics | CamenBERT | CamenBERT Kaggle Submission |
+|:---------:|:---------:|:---------:| 
+| Precision  | 0.9520 | |
+| Recall     | 0.9522 | |
+| F1-score  | 0.9520 | |
+| Accuracy | 0.9518 | 0.606 |
 
 
 ![](https://github.com/ROULIND/DSML-Apple-Project-difficulty-analysis/blob/main/images/CamenBERT-ConfusionMatrix.png)
 
+### 4.2 Overfitting Challenge
+Despite achieving impressive scores with our training data using CamemBERT, we encountered a notable challenge when submitting predictions on Kaggle. Our highest score on the Kaggle platform was 0.606, a stark contrast to the high accuracy observed during training. This discrepancy highlighted a critical issue in our model: overfitting.
 
-### 4.2 Data Augmentation
+- Overfitting on Training Data: The high performance on the training set, while initially encouraging, suggested that our model might be too closely attuned to the specifics of the training data. As a result, it struggled to generalize effectively to the diverse range of texts presented in the Kaggle competition.
+- Generalization to Unseen Data: The lower score on Kaggle indicated that our model, while powerful, was not adequately generalizing to unseen data. This is a common challenge in machine learning, especially with complex models like transformers.
 
-### 4.3 Potential Improvement
+### 4.3 Data Augmentation Efforts and Challenges
 
+To enhance our model's accuracy, we delved into data augmentation, employing several techniques to expand our training dataset. Our initial approach involved using synonyms to generate new sentences. However, we realized that substituting words with synonyms could inadvertently alter the text difficulty, thus affecting the model's learning process.
+
+We then experimented with generating sentences and their corresponding difficulty levels using ChatGPT, both directly within the prompt and through a Python script. This effort successfully increased our training dataset from 4,800 to over **12,000 entries**, adding more than 7,200 new data points. (**full_augmented_training_data.csv**)
+
+Despite this significant increase in training data, our model's precision on the Kaggle submissions unexpectedly decreased. This **decline in performance** could be attributed to overfitting, particularly as the newly generated data might have varied substantially from the original dataset and the texts used in Kaggle's evaluation. This outcome highlighted the delicate balance required in data augmentation - ensuring new data is beneficial and closely aligned with the task's requirements.
 
 
 ## 5. Conclusion
+
+### 5.1 Reflecting on Our Journey with CamemBERT
+In conclusion, we believe CamemBERT has proven to be an excellent model choice for our text classification challenge. Its potential was evident, despite the hurdles we encountered. Given more time and resources, we could have further refined our approach, particularly in producing high-quality augmented data while implementing strategies to significantly reduce overfitting.
+
+Time was a crucial factor in our project. Training CamemBERT, especially with an expanded dataset, required substantial computational resources and time. The augmentation process not only added to the dataset size but also exponentially increased the demand for these resources. If provided with additional time and computational power, we are confident that we could have enhanced the model's accuracy even further, making it more adept at handling the diverse range of texts in the Kaggle competition.
+
+This project has been a testament to the capabilities of advanced NLP models like CamemBERT and the importance of balancing model complexity with data quality and computational practicality.
+
+### 5.2 Kaggle Competition Results
+
+Our foray into the Kaggle competition culminated in a commendable achievement. We secured the 5th position, finishing just 0.023 points behind the winners in terms of precision. This close margin highlights both the competitiveness of the event and the effectiveness of our model.
+
+This result is particularly noteworthy considering the complexity of the task and the high level of skill exhibited by other participants. Finishing in the top five is a testament to the hard work and strategic decisions we made throughout the project, especially our choice to use CamemBERT and our efforts in data processing and model optimization.
+
+![](https://github.com/ROULIND/DSML-Apple-Project-difficulty-analysis/blob/main/images/Kaggle-Leaderboard.jpg)
 
 ## 6. Team
 
