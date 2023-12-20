@@ -155,7 +155,7 @@ Our foray into the Kaggle competition culminated in a commendable achievement. W
 
 This result is particularly noteworthy considering the complexity of the task and the high level of skill exhibited by other participants. Finishing in the top five is a testament to the hard work and strategic decisions we made throughout the project, especially our choice to use CamemBERT and our efforts in data processing and model optimization.
 
-![](https://github.com/ROULIND/DSML-Apple-Project-difficulty-analysis/blob/main/images/Kaggle-Leaderboard.jpg)
+![](https://github.com/ROULIND/DSML-Apple-Project-difficulty-analysis/blob/main/images/Kaggle-Leaderboard.png)
 
 ## 6. Team
 
