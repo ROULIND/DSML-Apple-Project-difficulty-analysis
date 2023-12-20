@@ -26,12 +26,12 @@ Through this project, we aim to demonstrate our ability to translate theoretical
 
 ### 3.2 Basic models
 
-| Models    | Logistic Regression | Decision Tree | KNN Neighbours | Random Forest |
-|:---------:|:---------:|:---------:|:---------:|:---------:|
-| Precision | 0.4470  |  x.xxxx | x.xxxx | x.xxxx
-| Recall    | 0.4541  |  x.xxxx  | x.xxxx | x.xxxx
-| F1-score | 0.4446 | x.xxxx | x.xxxx | x.xxxx 
-| Accuracy | 0.4541 | x.xxxx | x.xxxx | x.xxxx
+| Models    | Logistic Regression | Multinomial NB | NeuralNetwork | GDBT | Random Forest |
+|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+| Precision | 0.4470  |  x.xxxx | x.xxxx | x.xxxx |  |
+| Recall    | 0.4541  |  x.xxxx  | x.xxxx | x.xxxx |  |
+| F1-score | 0.4446 | x.xxxx | x.xxxx | x.xxxx |  |
+| Accuracy | 0.4541 | x.xxxx | x.xxxx | x.xxxx |  |
 
 ### 3.3 Advanced models
 
@@ -45,3 +45,4 @@ Through this project, we aim to demonstrate our ability to translate theoretical
 
 Dimitri Roulin
 Étudiant - Master en Systèmes d'information et Innovation digitale
+
