@@ -34,17 +34,30 @@ Through this rigorous data processing phase, we established a solid foundation f
 
 Here the different data we faced :
 
-**training_data.csv**
+**training_data.csv** : data used to train our models
 | Id | sentence | difficulty |
 |:---------:|:---------:|:---------:|
 | 0 | Les coûts kilométriques réels peuvent diverger sensiblement des valeurs moyennes en fonction du moye... | C1 |
 | 1 | Le bleu, c'est ma couleur préférée mais je n'aime pas le vert! | A1 |
 | ... | ... | ... |
 
+**unlabelled_test_data.csv** : data that are used to predict difficulty
+| Id | sentence |
+|:---------:|:---------:|
+| 0 | Nous dûmes nous excuser des propos que nous eûmes prononcés |
+| 1 | Vous ne pouvez pas savoir le plaisir que j'ai de recevoir cette bonne nouvelle. |
+| ... | ... |
+
+**submission_sample.csv** : data we use for the kaggle's submissions
+| Id | difficulty |
+|:---------:|:---------:|
+| 0 | A2 |
+| 1 | C1 |
+| ... | ... |
 
 
 
-### 3.2 Basic models
+### 3.2 Different models tested
 
 | Models    | Logistic Regression | Multinomial NB | NeuralNetwork | GDBT | Random Forest |
 |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
@@ -54,7 +67,7 @@ Here the different data we faced :
 | Accuracy | 0.4541 | 0.4125 | 0.4062 | x.xxxx |  |
 
 
-### 3.3 Advanced models
+### 3.3 Our best model
 
 ### 3.4 Data augmentation
 
