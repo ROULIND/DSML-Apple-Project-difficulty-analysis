@@ -90,18 +90,43 @@ CamemBERT's transformer architecture, with its attention mechanisms, offered a s
 Integrating CamemBERT into our workflow marked a turning point in our project. We adapted our data preprocessing to accommodate the input requirements of the model and fine-tuned CamemBERT on our dataset, eagerly anticipating the impact it would have on our submission's performance in the Kaggle competition.
 
 
+## 4 Our Best Model
 
-### 3.5 Our Best Model
+### 4.1 Implementation and Performance
 
-### 3.6 Data Augmentation
+In our journey to find the most effective model for text difficulty classification, we turned to CamemBERT, a transformer-based model renowned for its proficiency in understanding French language nuances. Here's a brief overview of how we implemented and utilized CamemBERT:
 
-### 3.7 Potential Improvement
+- **Data Preparation**: We used a dataset comprising sentences and their corresponding difficulty levels. This dataset was split into training and testing sets, with a focus on balancing the distribution across different difficulty categories.
+
+- **Tokenization**: Utilizing CamembertTokenizer from the transformers library, we tokenized the text data. This process involved truncating and padding the texts to a maximum length, ensuring uniformity for model processing.
+
+- **Model Architecture**: We employed CamembertForSequenceClassification, a variant of CamemBERT fine-tuned for sequence classification tasks. Our model was configured to classify texts into six difficulty levels (from A1 to C2).
+
+- **Training**: The model was trained on the tokenized training data, using the AdamW optimizer with a learning rate of 5e-5. Training was conducted over several epochs, with each batch of data being passed through the model to calculate loss and backpropagate the gradients.
+
+- **Evaluation**: We evaluated the model's performance using a custom evaluate function, calculating accuracy on both the training and testing sets. This provided us with insights into how well the model generalizes to unseen data.
+
+The implementation of CamemBERT proved to be a significant leap forward in our project. It demonstrated remarkable accuracy in classifying the difficulty of French texts, outperforming our initial models. 
+
+| Metrics | CamenBERT |
+|:---------:|:---------:|
+| Precision  | **0.9520** | 
+| Recall     | **0.9522** | 
+| F1-score  | **0.9520** |
+| Accuracy | **0.9518** | 
+
+![](https://github.com/ROULIND/DSML-Apple-Project-difficulty-analysis/blob/main/images/CamenBERT-ConfusionMatrix.jpg)
+
+
+### 4.2 Data Augmentation
+
+### 4.3 Potential Improvement
 
 
 
-## 4. Conclusion
+## 5. Conclusion
 
-## 5. Team
+## 6. Team
 
 ![](https://github.com/ROULIND/DSML-Apple-Project-difficulty-analysis/blob/main/images/Dimitri-Roulin-PP.jpg)
 
