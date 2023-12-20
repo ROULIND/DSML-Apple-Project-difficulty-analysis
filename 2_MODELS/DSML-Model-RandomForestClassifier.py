@@ -7,13 +7,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import cross_val_score
 
 # Load the datasets
-train_data = pd.read_csv("training_data.csv")
-test_data = pd.read_csv("unlabelled_test_data.csv")
-
-# Preprocess the data (e.g., text cleaning, handling missing values)
-# Your preprocessing steps go here
-
-
+train_data = pd.read_csv("../1_DATA/1_0_PROJECT_DATA/training_data.csv")
+test_data = pd.read_csv("../1_DATA/1_0_PROJECT_DATA/unlabelled_test_data.csv")
 
 # Example with TF-IDF
 tfidf = TfidfVectorizer(max_features=1000)  # You can adjust the number of features
