@@ -24,14 +24,35 @@ Through this project, we aim to demonstrate our ability to translate theoretical
 
 ### 3.1 Data analysis
 
+Before diving into the modeling phase, it was essential to thoroughly understand and prepare our dataset. The data provided came in a structured format, comprising features that required careful cleaning and exploration to ensure their suitability for the machine learning models we intended to use.
+
+We commenced by cleansing the data, addressing any missing values, anomalies, or inconsistencies that could potentially skew our analysis and model performance. Our exploratory data analysis (EDA) involved statistical summaries and visual inspections to uncover patterns, trends, and correlations within the data. This step was crucial not only to familiarize ourselves with the dataset's characteristics but also to tailor the preprocessing steps that would follow.
+
+Furthermore, the competition on Kaggle specified a particular format for the submission of predictions. This necessitated an additional layer of data formatting to align our model's output with the expected submission structure. We meticulously formatted our prediction outputs to meet the requirements, ensuring compatibility with Kaggle's evaluation system.
+
+Through this rigorous data processing phase, we established a solid foundation for importing the data into our models and leveraging it effectively to generate accurate predictions.
+
+Here the different data we faced :
+
+**training_data.csv**
+| Id | sentence | difficulty |
+|:---------:|:---------:|:---------:|
+| 0 | Les coûts kilométriques réels peuvent diverger sensiblement des valeurs moyennes en fonction du moye... | C1 |
+| 1 | Le bleu, c'est ma couleur préférée mais je n'aime pas le vert! | A1 |
+| ... | ... | ... |
+
+
+
+
 ### 3.2 Basic models
 
 | Models    | Logistic Regression | Multinomial NB | NeuralNetwork | GDBT | Random Forest |
 |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-| Precision | 0.4470  |  x.xxxx | x.xxxx | x.xxxx |  |
-| Recall    | 0.4541  |  x.xxxx  | x.xxxx | x.xxxx |  |
-| F1-score | 0.4446 | x.xxxx | x.xxxx | x.xxxx |  |
-| Accuracy | 0.4541 | x.xxxx | x.xxxx | x.xxxx |  |
+| Precision | 0.4470  |  0.45014 | 0.4354 | x.xxxx |  |
+| Recall    | 0.4541  |  0.4125  | 0.4062 | x.xxxx |  |
+| F1-score | 0.4446 | 0.40452 | 0.40527 | x.xxxx |  |
+| Accuracy | 0.4541 | 0.4125 | 0.4062 | x.xxxx |  |
+
 
 ### 3.3 Advanced models
 
