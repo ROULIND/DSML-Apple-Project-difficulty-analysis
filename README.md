@@ -157,6 +157,11 @@ This result is particularly noteworthy considering the complexity of the task an
 
 ![](https://github.com/ROULIND/DSML-Apple-Project-difficulty-analysis/blob/main/images/Kaggle-Leaderboard.png)
 
+### 5.3 Youtube Video
+
+We created this Youtube video that present our project, our reflexions, highlight the code for our best model and present our streamlit application :
+https://www.youtube.com/watch?v=YKtTcR8mC8o
+
 ## 6. Team
 
 Our project was led by Jonatan Gretz and Dimitri Roulin, Master's students specializing in Information Systems and Digital Innovation.
